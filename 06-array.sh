@@ -10,3 +10,6 @@ MOVIES=("RRR" "DjTillu" "Murari")
 # indexes are 0, 1, 2
 
 echo "First movie is: ${MOVIES[0]}"
+echo "Second movies is: ${MOVIES[1]}"
+echo "Third movie is: ${MOVIE[2]}"
+echo "All movies: ${MOVIES[@]}"
