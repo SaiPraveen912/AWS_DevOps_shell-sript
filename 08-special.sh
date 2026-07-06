@@ -6,3 +6,5 @@ echo "All variables: $@" # $@ is the symbol of all variables
 echo "Number of variables passed: $#" 
 
 echo "To know the script name: $0"
+
+echo "Current working directory: $PWD"
