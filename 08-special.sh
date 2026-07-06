@@ -17,4 +17,10 @@ echo "Hostname: $HOSTNAME"
 
 echo "Process ID of the current shell script: $$"
 
-sleep 100
+# sleep 100 --> This is running in foreground
+
+# To send the command to background use --> &
+
+sleep 100 &
+
+echo "Process ID of last background command: $!"
