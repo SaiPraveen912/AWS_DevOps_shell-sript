@@ -13,3 +13,4 @@ echo "Home directory of current user: $HOME"
 
 echo "To know which user is running this script: $USER"
 
+echo "Hostname: $HOSTNAME"
