@@ -4,3 +4,5 @@ echo "To print all the variables given to the script ecternally: $@"
 echo "All variables: $@" # $@ is the symbol of all variables 
 
 echo "Number of variables passed: $#" 
+
+echo "To know the script name: $0"
